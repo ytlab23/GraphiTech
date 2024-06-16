@@ -226,3 +226,27 @@ body {
     font-weight: 400;
     fon-size: 2.2em;
 }
+
+body .slick-dots {
+    display: flex;
+    bottom: 25px;
+    left: 65%;
+}
+
+body .slick-dots li {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    font-size: 1.2rem;
+    margin-left: 3px;
+    font-weight: 600;
+}
+
+body .slick-dots li.slick-active, body .slick-dots li:hover {
+    background-color: rgb(26 118 166);
+}
