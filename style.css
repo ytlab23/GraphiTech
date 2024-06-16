@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --blue-opacity: rgba(22,132,187,0.8);
+}
+
+.lta-blue-opcity {
+    background-color: var(--blue-opacity);
+}
+
+h2 {
+    margin-bottom: 1.75rem;
+    font-weight: 200;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 2.2em;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+a {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.lta-block {
+    padding: 1.75rem 1.2rem;
+    background-color: var(--blue-opacity);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+}
+
+.lta-block-full {
+    background-color: var(--blue-opacity);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+}
+
+body {
+    background-image: url('assets/images/background.png');
+    color: white;
+    line-height: 1.2;
+    background-size: 100%;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-position: 50% 0;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+/* LTA - Header */
+
+.lta-header {
+    height: 80px;
+    padding: 1.5rem 0;
+}
+
+.lta-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lta-nav .brand {
+    width: 280px;
+    max-width: 30%;
+}
+
+.lta-nav .brand img {
+    max-width: 100%;
+}
+
+.lta-navlist {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.lta-navlist li {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.lta-navlist li .arrow {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    margin-left: 5px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.lta-navlist li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* LTA - Main Area */
+
+.lta-main-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lta-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.75rem 1.2rem;
+    width: 25%;
+    background-color: var(--blue-opacity);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.blog-news {
+    /* max-width: calc(280px - 1.2rem) */
+}
+
+.newslist-wrapper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-news h2 {
+    color: white;
+    margin-bottom: 1.75rem;
+}
+
+.newslist-wrapper li {
+    margin-bottom: 1.5rem;
+}
+
+.newslist-wrapper li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.newslist-wrapper li a span {
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-right: 0.5rem;
+}
+
+.newslist-wrapper li a p {
+    width: 80%;
+}
+
+.lta-content {
+    width: 71%;
+}
+
+/* LTA - Slider */
+
+.lta-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: -6px;
+}
+
+.lta-slider__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lta-slider__content--left {
+    padding: 1.75rem 1.2rem;
+    width: 32%;
+}
+
+.lta-slider__content--right {
+    width: 66%;
+}
+
+/* LTA - Footer */
+
+.lta-footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    fon-size: 2.2em;
+    padding: 1rem;
+}
+
+.lta-footer p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    fon-size: 2.2em;
+}
